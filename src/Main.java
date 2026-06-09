@@ -16,7 +16,7 @@ public class Main{
   UserRepository repository = RepositoryFactory.createRepository();
 
 // RepositoryFactory factory = new RepositoryFactory();
-// UserRepository repository =  factory.getRepository("MEMORY");
+// UserRepository repository =  factory.createRepository("MEMORY");
 
   UserService service = new UserService(repository);
 

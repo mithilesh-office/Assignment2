@@ -19,7 +19,7 @@ public class RepositoryFactory {
 
 // public class RepositoryFactory {
 
-//     public UserRepository getRepository(String type) {
+//     public UserRepository createRepository(String type) {
 
 //         if(type.equalsIgnoreCase("MEMORY")) {
 //             return new InMemoryUserRepository();
