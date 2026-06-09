@@ -17,7 +17,6 @@ public class App {
         
         UserRepository repository = RepositoryFactory.createRepository();
 
-
         UserService service = new UserService(repository);
 
         NotificationContext context = new NotificationContext();

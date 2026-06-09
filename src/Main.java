@@ -11,7 +11,6 @@ public class Main{
 
   DatabaseConnection db1 = DatabaseConnection.getInstance();
   DatabaseConnection db2 = DatabaseConnection.getInstance();
-  System.out.println("Singleton Working: " + (db1==db2));
 
   UserRepository repository = RepositoryFactory.createRepository();
 
