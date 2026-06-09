@@ -3,6 +3,7 @@ import model.User;
 import java.util.*;
 
 public class InMemoryUserRepository implements UserRepository {
+    
     private List<User> users = new ArrayList<>();
 
     public void create(User user){

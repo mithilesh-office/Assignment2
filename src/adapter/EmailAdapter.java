@@ -12,7 +12,6 @@ public class EmailAdapter implements NotificationStrategy{
  }
  
   public void send(String message){
-
   service.sendMail(message);
 
  }
